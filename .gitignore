@@ -1,0 +1,31 @@
+# Binance API credentials (never commit these)
+.env
+
+# Build artifacts
+trade-bot
+*.exe
+*.bin
+*.out
+
+# Go build cache
+go_payload/
+*.pkg
+go1.21.5.darwin-amd64.pkg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/*.log
+logs/*.log.*
+
+# Temporary files
+tmp/
+temp/

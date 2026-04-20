@@ -11,7 +11,6 @@ import (
 	"net/url"
 	"strconv"
 	"time"
-
 	"github.com/tradeai/bot/internal/config"
 	"github.com/tradeai/bot/internal/logger"
 )

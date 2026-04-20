@@ -2,7 +2,6 @@ package strategy
 
 import (
 	"fmt"
-
 	"github.com/tradeai/bot/internal/config"
 	"github.com/tradeai/bot/internal/indicators"
 	"github.com/tradeai/bot/internal/logger"

@@ -4,7 +4,6 @@ import (
 	"fmt"
 	"sync"
 	"time"
-
 	"github.com/tradeai/bot/internal/api"
 	"github.com/tradeai/bot/internal/config"
 	"github.com/tradeai/bot/internal/logger"
