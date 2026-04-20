@@ -1,0 +1,23 @@
+trading:
+  symbol: "BTCUSDT"
+  quantity: 0.01
+  stop_loss_pct: 2.0
+  take_profit_pct: 5.0
+  interval: "1m"
+
+indicators:
+  rsi_period: 14
+  rsi_oversold: 30.0
+  rsi_overbought: 70.0
+  macd_fast: 12
+  macd_slow: 26
+  macd_signal: 9
+  ema_period: 20
+
+api:
+  base_url: "https://api.binance.com"
+  timeout_seconds: 30
+
+logging:
+  level: "info"
+  file: "logs/bot.log"
