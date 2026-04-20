@@ -12,7 +12,7 @@ indicators:
   macd_fast: 12
   macd_slow: 26
   macd_signal: 9
-  ema_period: 20
+  ema_periods: [10, 20, 30]
 
 api:
   base_url: "https://api.binance.com"

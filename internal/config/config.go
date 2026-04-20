@@ -33,7 +33,7 @@ type IndicatorsConfig struct {
 	MACDFast      int     `mapstructure:"macd_fast"`
 	MACDSlow      int     `mapstructure:"macd_slow"`
 	MACDSignal    int     `mapstructure:"macd_signal"`
-	EMAPeriod     int     `mapstructure:"ema_period"`
+	EMAPeriods    []int  `mapstructure:"ema_periods"`
 }
 
 // APIConfig holds API configuration
@@ -68,7 +68,7 @@ func Load() (*Config, error) {
 	viper.SetDefault("indicators.macd_fast", 12)
 	viper.SetDefault("indicators.macd_slow", 26)
 	viper.SetDefault("indicators.macd_signal", 9)
-	viper.SetDefault("indicators.ema_period", 20)
+	viper.SetDefault("indicators.ema_periods", []int{10, 20, 30})
 
 	viper.SetDefault("api.base_url", "https://api.binance.com")
 	viper.SetDefault("api.timeout_seconds", 30)
